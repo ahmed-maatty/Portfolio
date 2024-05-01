@@ -2,6 +2,7 @@ import 'animate.css';
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import Tours from "../assets/img/Tours.png";
+import SocialMedia from "../assets/img/SocialMedia.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import resume from "../assets/img/resume.pdf"
 import TrackVisibility from 'react-on-screen';
@@ -13,8 +14,14 @@ export const Projects = () => {
       title: "Tours Company",
       description: "Development",
       imgUrl: Tours,
+      url:"https://tours-e53e.onrender.com"
     },
-    
+    {
+      title: "Social Media",
+      description: "Development",
+      imgUrl: SocialMedia,
+      url:"https://socialmediaclient-kwku.onrender.com"
+    },
   ];
 
   return (

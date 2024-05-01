@@ -1,10 +1,10 @@
 import { Col } from "react-bootstrap";
 
-export const ProjectCard = ({ title, description, imgUrl }) => {
+export const ProjectCard = ({ title, description, imgUrl , url }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <a 
-        href="https://tours-e53e.onrender.com" 
+        href={url}
         target="_blank"
         style={{color:"white"}}
         >
