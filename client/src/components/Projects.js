@@ -4,7 +4,7 @@ import { ProjectCard } from "./ProjectCard";
 import Tours from "../assets/img/Tours.png";
 import SocialMedia from "../assets/img/SocialMedia.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import resume from "../assets/img/resume.pdf"
+import resume from "../assets/img/CV.pdf"
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
